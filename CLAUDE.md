@@ -1,18 +1,18 @@
-# Cooklang recipe repository
+# Cooklang-receptarkiv
 
-Recipes are written in cooklang. See [agent/cooklang-spec.md](agent/cooklang-spec.md) for the language specification.
+Recept skrivs i cooklang. Se [agent/cooklang-spec.md](agent/cooklang-spec.md) för språkspecifikationen.
 
-## Validation
+## Validering
 
-After editing any `.cook` file, run `./cook doctor` to verify correctness.
+Efter att du redigerat en `.cook`-fil, kör `./cook doctor` för att verifiera att den är korrekt.
 
-## Web server
+## Webbserver
 
-Run `./cook server` to start the web UI at http://127.0.0.1:9080. Use it to visually verify changes like images and formatting.
+Kör `./cook server` för att starta webbgränssnittet på http://127.0.0.1:9080. Använd det för att visuellt verifiera ändringar som bilder och formatering.
 
-## Cooklang pitfalls
+## Cooklang-fallgropar
 
-- `~` is timer syntax in cooklang. Never use it to mean "ungefär/approximately". Use "ca" instead (e.g. "ca 1 cm" not "~1 cm").
+- `~` är timer-syntax i cooklang. Använd det aldrig för att mena "ungefär". Använd "ca" istället (t.ex. "ca 1 cm" inte "~1 cm").
 
 ## Taggar
 
